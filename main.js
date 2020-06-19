@@ -28,7 +28,7 @@
 // }
 
 
-const signal = 'pink';
+// const signal = 'pink';
 
 // if (signal === 'red') {
 // 	console.log('stop');
@@ -39,25 +39,41 @@ const signal = 'pink';
 // }
 
 
-switch (signal) {
-case 'red':
-	console.log('stop');
-	break;
-case 'yellow':
-	console.log('coution');
-	break;
-case 'blue':
-	console.log('go');
-	break;
-default:
-console.log('wrong signal');
-break;
-}
+// switch (signal) {
+// case 'red':
+// 	console.log('stop');
+// 	break;
+// case 'yellow':
+// 	console.log('coution');
+// 	break;
+// case 'blue':
+// 	console.log('go');
+// 	break;
+// default:
+// console.log('wrong signal');
+// break;
+// }
 
-for (let i = 1; i <= 10; i++) {
-	console.log(`hello ${i}`)
-}
+// for (let i = 1; i <= 10; i++) {
+// 	console.log(`hello ${i}`)
+// }
 
+
+
+// let hp = 100;
+
+// while (hp > 0) {
+// 	console.log(`${hp} HP left`);
+// 	hp -= 15;
+// }
+
+
+let hp = -50;
+
+do {
+	console.log(`${hp} HP left`);
+	hp -= 15;
+} while (hp > 0);
 
 
 
